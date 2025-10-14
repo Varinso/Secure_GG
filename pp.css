@@ -1,0 +1,115 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav .logout {
+    background: #ff4d4d;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav .logout:hover {
+    background: #d32f2f;
+}
+
+/* Main Container */
+.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 20px;
+}
+
+/* Card Styling */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    background: #f9f9f9;
+}
+
+/* Buttons */
+button, .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+button:hover, .btn:hover {
+    background: #0056b3;
+}
+
+.btn-review {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-review:hover {
+    background-color: #218838;
+}
